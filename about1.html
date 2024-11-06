@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - E-Shop</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+    <style>
+        /* Existing Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            padding: 10px 0;
+            border-radius: 15px;
+            margin: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .logo {
+            float: left;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Pacifico', cursive;
+        }
+        nav {
+            float: right;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .clear {
+            clear: both;
+        }
+        
+        /* Artistic About Section Styles */
+        .about-section {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            border-radius: 15px;
+            margin: 20px 0;
+            position: relative;
+        }
+        .about-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin: 0 auto;
+            width: 70%;
+        }
+        .about-icons {
+            margin-top: 30px;
+        }
+        .about-icons i {
+            font-size: 40px;
+            margin: 0 15px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        /* Artistic background shapes */
+        .circle, .triangle, .square {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            top: 30px;
+            left: 10%;
+        }
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            border-bottom: 100px solid #fff;
+            top: 70px;
+            right: 15%;
+            opacity: 0.2;
+        }
+        .square {
+            width: 80px;
+            height: 80px;
+            background-color: #fff;
+            bottom: 30px;
+            left: 20%;
+            opacity: 0.2;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                E-Shop
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="myvellsstore.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about1.html">About</a></li>
+                    <li><a href="contact1.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <!-- Artistic About Section -->
+    <div class="about-section">
+        <div class="container">
+            <h2>Welcome to E-Shop</h2>
+            <p>At E-Shop, we blend creativity and technology to bring you an exceptional shopping experience. Our platform is built on passion, innovation, and commitment to quality, with each product curated to reflect our values. Dive into a world of modern aesthetics, where style meets functionality, and discover what makes E-Shop more than just a marketplace.</p>
+            <div class="about-icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-leaf"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <!-- Decorative shapes -->
+        <div class="circle"></div>
+        <div class="triangle"></div>
+        <div class="square"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 E-Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
